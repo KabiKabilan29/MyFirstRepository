@@ -8,6 +8,11 @@ import org.openqa.selenium.interactions.Actions;
 
 public class Amazon {
 	//Performing mouse actions.
+	
+	public static void password() {
+		System.out.println("Password method");
+
+	}
 	private void amazon() throws InterruptedException {
 		
 		//Configuring browser.
@@ -32,5 +37,6 @@ public class Amazon {
 	public static void main(String[] args) throws InterruptedException {
 		Amazon a = new Amazon();
 		a.amazon();
+		password();
 	}
 }
